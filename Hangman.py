@@ -137,11 +137,3 @@ if __name__ == "__main__":
      word_list = load_words()
      gameword = choose_word_random(word_list)
      hangman(gameword)
-
-echo "# Hangman" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/harrey401/Hangman.git
-git push -u origin main
