@@ -106,7 +106,7 @@ def hangman(gameword):
                     guesses_remaining -= 1
                 else:
                   warnings_remaining -= 1
-                  print("You loose 1 warning:_(")
+                  print("You lose 1 warning:_(")
                 press = input('Press any key to continue')
                 os.system('cls||clear')
             elif guess in set(gameword):
